@@ -1,0 +1,30 @@
+create database dbEvote;
+
+use dbevote;
+
+create table tblUser(
+UserId int primary key auto_increment,
+UserName varchar(100),
+Password varchar(100)
+);
+
+insert into tbluser (Username,password) values
+('Adrian013', 'Adrian13');
+
+select * from tbluser;
+
+create table tbldata(
+DataId int primary key auto_increment,
+Fname varchar (50),
+Lname varchar (50),
+Email varchar (100),
+Bday date,
+Age int
+);
+
+insert into tbldata(fname, lname, email, bday, age)values
+("Adrian C'ven", 'Lazar', 'adrianlazar@gmail.com', '2000-04-13', 23);
+
+alter table tbldata add Password varchar(100);
+
+select * from tbldata;

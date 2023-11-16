@@ -1,0 +1,34 @@
+ERD 
+
+Admin Have an Account 1:1
+Account Has Admin 1:1
+
+Student Have an Account 1:1
+Account Has Student 1:1
+
+
+Accounts
+AcctId
+AdminId
+StudentId
+Email
+Password
+
+Admin
+AdminID
+Lname
+Fname
+Birthday
+Gender
+Position
+Department
+
+Student
+StudId
+Last Name
+First Name
+Middle Name
+Course
+Yr
+Birthday
+Gender
